@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+    <title>ScrumShine Calculator</title>
+</head>
+<body>
+
+    <div id="calculator" class="animated long fadeInUp">
+        <!-- 0st Row -->
+        <div id="text">ScrumShine</div>
+            <input type="text" id = "display" value="0">
+
+        <!-- 1.2st Row -->
+        <button class="btn memo" id="M">M</button>
+        <button class="btn memo" id="MPlus">M+</button>
+        <button class="btn memo" id="MC">MC</button>
+
+        <!-- 1.2st Row -->
+        <button class="btn op"  id="percent"><i class="fas fa-percent"></i></button>
+        <button class="btn op" id="square">x<sup>2</sup></button>
+        <button class="btn op" id="sqrt">&#8730;</button>
+
+        <!-- 1st Row -->
+        <button class="btn btn-stress" id="reset">C</button>
+        <button class="btn btn-stress" id="del"><i class="fas fa-long-arrow-alt-left"></i></button>
+        <button class="" id="divi">/</button>
+        <button class="" id="mul"><i class="fas fa-times"></i></button>
+        <!-- 2st Row -->
+        <button class="btn num" id="num7">7</button>
+        <button class="btn num" id="num8">8</button>
+        <button class="btn num" id="num9">9</button>
+        <button class="" id="min"><i class="fas fa-minus"></i></button>
+        <!-- 3st Row -->
+        <button class="btn num" id="num4">4</button>
+        <button class="btn num" id="num5">5</button>
+        <button class="btn num" id="num6">6</button>
+        <button class="" id="plus"><i class="fas fa-plus"></i></button>
+        <!-- 4st Row -->
+        <button class="btn num" id="num1">1</button>
+        <button class="btn num" id="num2">2</button>
+        <button class="btn num" id="num3">3</button>
+        <!-- 5st Row -->
+        <button class="btn num" id="num0">0</button>
+        <button class="btn op" id="dot">.</button>
+        <button class="btn op" id="eql">=</button>
+        <button class="btn op" id="plusminus">+/-</button>
+      </div>
+      <script src="js/calculator.js"></script>
+      <script src="js/connect.js"></script>
+      <div class="NyanCat NyanSize"></div>
+
+      <audio>
+          <source src="http://frandias.com/_audio/nyan.ogg"></source>
+      </audio>
+
+</html>

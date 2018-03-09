@@ -1,0 +1,35 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "Calculator Project",
+  "main": "js/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "live-server .",
+    "test": "karma start",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/dpcconsulting/calculator-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/dpcconsulting/calculator-project#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "del": "^3.0.0",
+    "eslint": "^4.8.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "jasmine-core": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "live-server": "^1.2.0"
+  }
+}
